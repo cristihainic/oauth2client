@@ -26,7 +26,8 @@ import os
 from django import http
 from django import shortcuts
 from django.conf import settings
-from django.core import urlresolvers
+# from django.core import urlresolvers
+from django import urls as urlresolvers
 from django.shortcuts import redirect
 from django.utils import html
 import jsonpickle
